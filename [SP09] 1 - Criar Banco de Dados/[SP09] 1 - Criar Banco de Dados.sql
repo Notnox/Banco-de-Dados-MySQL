@@ -211,3 +211,6 @@ SELECT * FROM cursos WHERE número_maximo_alunos_simultâneo > 30 AND presencial
 SET SQL_SAFE_UPDATES=0;
 UPDATE estudantes SET media_geral = 10 WHERE id = 98;
 SELECT * FROM estudantes WHERE id = 98; 
+
+DELETE FROM cursos WHERE nome = "Administração";
+SELECT * FROM cursos; 
