@@ -206,4 +206,8 @@ INSERT INTO cursos (id, codigo, nome, EAD, presencial, professor_responsável, n
 INSERT INTO cursos (id, codigo, nome, EAD, presencial, professor_responsável, número_maximo_alunos_simultâneo) VALUES (53, 39674, "Sistemas de informação (bacharelado)", true, false, "Anthony Gabriel Cobaleda", 19);
 INSERT INTO cursos (id, codigo, nome, EAD, presencial, professor_responsável, número_maximo_alunos_simultâneo) VALUES (54, 27675, "Tecnologia da informação (tecnológico)", false, true, "Martin Coe", 25);
 
-SELECT * FROM cursos WHERE número_maximo_alunos_simultâneo < 30;
+SELECT * FROM cursos WHERE número_maximo_alunos_simultâneo > 30 AND presencial = 1; 
+
+SET SQL_SAFE_UPDATES=0;
+UPDATE estudantes SET media_geral = 10 WHERE id = 98;
+SELECT * FROM estudantes WHERE id = 98; 
