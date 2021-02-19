@@ -213,4 +213,6 @@ UPDATE estudantes SET media_geral = 10 WHERE id = 98;
 SELECT * FROM estudantes WHERE id = 98; 
 
 DELETE FROM cursos WHERE nome = "Administração";
-SELECT * FROM cursos; 
+SELECT * FROM cursos;
+
+SELECT * FROM professores WHERE nacionalidade = "Brasileiro";  
