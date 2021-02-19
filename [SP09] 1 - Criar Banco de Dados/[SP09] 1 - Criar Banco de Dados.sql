@@ -216,3 +216,5 @@ DELETE FROM cursos WHERE nome = "Administração";
 SELECT * FROM cursos;
 
 SELECT * FROM professores WHERE nacionalidade = "Brasileiro";  
+
+SELECT * FROM estudantes WHERE nome LIKE "J%";  
