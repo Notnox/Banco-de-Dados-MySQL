@@ -205,3 +205,5 @@ INSERT INTO cursos (id, codigo, nome, EAD, presencial, professor_responsável, n
 INSERT INTO cursos (id, codigo, nome, EAD, presencial, professor_responsável, número_maximo_alunos_simultâneo) VALUES (52, 95207, "Redes de computadores (tecnológico)", false, true, "Derick Colombo", 23);
 INSERT INTO cursos (id, codigo, nome, EAD, presencial, professor_responsável, número_maximo_alunos_simultâneo) VALUES (53, 39674, "Sistemas de informação (bacharelado)", true, false, "Anthony Gabriel Cobaleda", 19);
 INSERT INTO cursos (id, codigo, nome, EAD, presencial, professor_responsável, número_maximo_alunos_simultâneo) VALUES (54, 27675, "Tecnologia da informação (tecnológico)", false, true, "Martin Coe", 25);
+
+SELECT * FROM cursos WHERE número_maximo_alunos_simultâneo < 30;
