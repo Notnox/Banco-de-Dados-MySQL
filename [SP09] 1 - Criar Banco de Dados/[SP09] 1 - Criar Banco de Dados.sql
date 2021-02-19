@@ -218,3 +218,5 @@ SELECT * FROM cursos;
 SELECT * FROM professores WHERE nacionalidade = "Brasileiro";  
 
 SELECT * FROM estudantes WHERE nome LIKE "J%";  
+
+SELECT nome, media_geral FROM estudantes WHERE media_geral >= 7 ORDER BY media_geral DESC;
